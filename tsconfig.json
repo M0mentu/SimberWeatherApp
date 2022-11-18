@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["dom", "es5", "es2015", "esnext"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "jsx": "react-native",
+    "noEmit": true,
+    "isolatedModules": true,
+    "strictBindCallApply": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "useDefineForClassFields": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "Assets": ["./src/Assets"],
+      "API": ["src/API"],
+      "Types": ["src/Types"],
+      "SimpleWeather/Typography": ["./src/Components/Typography"],
+      "SimpleWeather/SvgView": ["./src/Components/SvgView"]
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
